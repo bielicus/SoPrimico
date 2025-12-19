@@ -17,32 +17,29 @@ h2 {
 /* Parte container, aqui puedes añadir estilos y editar cosas (recordar si se me olvida) */
 .container {
     width: 100%;
-    margin: auto;
-    padding: 10px 10px 10px 100px; /* deja espacio al logo */
-    text-align: center;
+    min-height: 200px;
     background-color: rgb(83, 83, 83);
     position: relative;
+    text-align: center;
+    padding: 30px 0;
 }
 
 .container h1 {
-    margin: 0;
-    padding: 20px 0;
     color: #e6e209;
     text-shadow: 2px 2px 4px black;
+    margin-bottom: 10px;
 }
 
 .container p {
     font-size: 20px;
-    margin: 0;
-    padding: 10px 0;
     color: #08a8cf;
     text-shadow: 2px 2px 4px black;
 }
 
 .container img {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
     width: 75px;
     height: auto;
 }
