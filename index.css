@@ -17,7 +17,7 @@ h2 {
 /* Parte container, aqui puedes añadir estilos y editar cosas (recordar si se me olvida) */
 .container {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     background-color: rgb(83, 83, 83);
     position: relative;
     text-align: center;
@@ -32,6 +32,11 @@ h2 {
 
 .container p {
     font-size: 20px;
+    color: #08a8cf;
+    text-shadow: 2px 2px 4px black;
+}
+.container p2 {
+    font-size: 15px;
     color: #08a8cf;
     text-shadow: 2px 2px 4px black;
 }
