@@ -49,6 +49,19 @@ h2 {
     height: auto;
 }
 
+.container h2 {
+    margin: 7px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+     background-color: #c7c40e;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: auto;
+    
+}
+
 
 
 /* el footer lo hemos puesto porque es lo del copyright, se puede editar aqui abajo por lo que se necesite */
@@ -69,19 +82,4 @@ h2 {
 
 /* la presentacion es la barra amarilla de arriba(de que se ve en la web), se puede editar aqui abajo por lo que se necesite */
 
-.presentation {
-    background-color: #c7c40e;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: auto;
-}
-
-.presentation h2 {
-    margin: 7px;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 700;
-    
-}
 
