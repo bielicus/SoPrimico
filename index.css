@@ -21,6 +21,7 @@ h2 {
     padding: 10px;
     text-align: center;
     background-color: rgb(83, 83, 83);
+    position: relative; /* MUY IMPORTANTE */
 }
 
 .container h1 {
@@ -37,6 +38,15 @@ h2 {
     color: #08a8cf;
     text-shadow: 2px 2px 4px black;
 }
+
+.container img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 75px;
+    height: auto;
+}
+      
 
 
 /* el footer lo hemos puesto porque es lo del copyright, se puede editar aqui abajo por lo que se necesite */
@@ -55,8 +65,10 @@ h2 {
     color: #f1ee09;
 }
 
+/* la presentacion es la barra amarilla de arriba(de que se ve en la web), se puede editar aqui abajo por lo que se necesite */
+
 .presentation {
-    background-color: #222222;
+    background-color: #c7c40e;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -64,6 +76,10 @@ h2 {
 }
 
 .presentation h2 {
-    margin: 10px;
-    color: #f1ee09;
+    margin: 7px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    
 }
+
