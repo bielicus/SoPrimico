@@ -2,26 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SoPrimico.com</title>
+    <title>SoPrimico.com | Roblox Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <!-- HEADER -->
     <div class="robloxcontainer">
-        <h1>Welcome to roblox shop!</h1>
-        <p>Here you can find all the roblox items you need from pet simulator, scripting and more!</p>
+        <h1>Welcome to Roblox Shop!</h1>
+        <p>Here you can find all the Roblox items you need from Pet Simulator, scripting and more!</p>
         <img src="Imgs/SoPrimicoLogo.png" alt="SoPrimico Logo">
         <button onclick="window.location.href='index.html'">Go back to main page</button>
     </div>
+
+    <!-- ITEMS -->
     <div class="robloxitems">
+
         <div class="itemcard">
             <h2>Pet Simulator 1 - Mystery Box (10 dark matter pets included!)</h2>
             <img src="Imgs/PetSimMisteryBox10Pets.jpg" alt="Pet sim Mystery Box">
             <p>Price: 1.00€</p>
-            <button>Buy Now</button>
-        </div>
 
+            <!-- PAYPAL BUTTON -->
+            <div class="paypal-button">
+                <div class="elfsight-app-f40101e1-4691-42ff-9025-a88b6a42c47c" data-elfsight-app-lazy></div>
+            </div>
+        </div> <!-- cierre correcto de itemcard -->
+
+    </div> <!-- cierre correcto de robloxitems -->
+
+    <!-- FOOTER -->
     <div class="footerroblox">
         <p>&copy; All rights reserved.</p>
     </div>
-</body> 
+
+    <!-- SCRIPT DE ELFSIGHT -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+
+</body>
 </html>

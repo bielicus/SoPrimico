@@ -271,6 +271,13 @@ button:hover {
     color: #f1ee09;
 }
 
+.paypal-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
