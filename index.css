@@ -84,7 +84,7 @@ h2 {
     font-weight: 700;
     background-color: #c7c40e;
     text-align: center;
-    position: fixed;
+    position: static;
     width: 100%;
     nav-up: 0;
     left: 0;
